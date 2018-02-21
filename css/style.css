@@ -84,7 +84,7 @@ header p
 
     text-align: center; /* テキストの中央寄せ */
 
-    color: #4c4c4c; /* 文字色 */
+    color:FF0461; /* 文字色 */
     border: 2px solid #4c4c4c; /* ボーダー */
     -webkit-border-radius: 4px; /* 角丸 */
        -moz-border-radius: 4px;
@@ -124,7 +124,7 @@ header .site-title span
 
     display: block;
 
-    color: #14c0c9;
+    color:#FF00FF;
 }
 .block-center {
     display: block;
@@ -231,7 +231,7 @@ section h2
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background-color: #14c0c9;
+    background-color: #46EEFF;
 }
 #skills h3
 {
@@ -240,7 +240,7 @@ section h2
 
     margin-bottom: 10px;
 
-    color: #14c0c9;
+    color: #46EEFF;
 }
 .block-center,
 section .container,
@@ -339,7 +339,7 @@ section .container,
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
-    background-color: #14c0c9;
+    background-color: #00FFFF;
 }
 #works .works-box img
 {
@@ -382,6 +382,15 @@ section .container,
 {
     margin-right: 0;
 }
+#contact ul .github,
+#contact ul .skype
+{
+    font-size: 3.2rem;
+}
+#contact ul .github i
+{
+    margin-left: 2px;
+}
 #contact ul a
 {
     display: block;
@@ -393,11 +402,11 @@ section .container,
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background-color: #14c0c9;
+    background-color: #FFD5EC;
 }
 #contact ul a:hover
 {
-    background-color: #000077;
+    background-color: #00ECFF;
 }
 footer
 {
@@ -405,6 +414,6 @@ footer
 
     text-align: center;
 
-    color: #000077;
+    color: #000088;
     background-color: #D7EEFF;
 }
